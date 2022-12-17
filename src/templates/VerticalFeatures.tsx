@@ -3,27 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Showcase your competences"
+    description="A platform for evaluating and improving the skills of software engineers. Our platform is designed to help software engineers showcase their skills and capabilities, and to provide companies with the tools and insights they need to identify, hire, and retain top talent"
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
+      title="Customized technical assessments"
+      description="With Tryout, software engineers can take customized technical assessments that measure their knowledge of programming languages, algorithms and data structures, and software development best practices. Our evaluators provide detailed feedback and coaching to help engineers improve their skills and advance their careers"
+      image="/assets/images/monitor.svg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
+      title="Enhance your professional development"
+      description="Our skills evaluation platform is designed specifically for software engineers and offers a variety of questions that cover a wide range of programming languages and technologies. Our comprehensive evaluations are tailored to your skill level and will help you identify areas of strength and opportunities for growth"
+      image="/assets/images/growth.svg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      title="Keep best practices up-to-date"
+      description="Our evaluations are using the latest best practices and industry standards"
+      image="/assets/images/industry.svg"
+      imageAlt="Second feature alt text"
     />
   </Section>
 );
