@@ -11,7 +11,7 @@ const Hero = () => (
     <Section yPadding="py-3">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/">
+          <Link href="/signin">
             <a>Sign in</a>
           </Link>
         </li>
