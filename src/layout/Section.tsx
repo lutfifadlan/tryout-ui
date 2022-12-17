@@ -10,11 +10,11 @@ type ISectionProps = {
 const Section = (props: ISectionProps) => (
   <div
     className={`max-w-screen-lg mx-auto px-3 ${
-      props.yPadding ? props.yPadding : 'py-16'
+      props.yPadding ? props.yPadding : 'py-6'
     }`}
   >
     {(props.title || props.description) && (
-      <div className="mb-12 text-center">
+      <div className="mb-6 text-center">
         {props.title && (
           <h2 className="text-4xl text-gray-900 font-bold">{props.title}</h2>
         )}
